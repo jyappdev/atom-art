@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 75px auto;
+  max-height: 525px;
+}
+
+h1 {
+  font-family: Impact, sans-serif;
+  font-weight: 200;
+  font-size: 50px;
+  color: #005f73;
+  padding: 0;
+  margin-left: 150px;
+  position: absolute;
+  top: -30px;
+  min-width: 100px;
+  max-width: 500px;
+  background-color: #e9d8a6;
+  border-bottom: 10px double #005f73;
+}
+.p {
+  font-family: Impact, sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  position: absolute;
+  color: #9b2226;
+  margin-left: 150px;
+  top: 60px;
+}
+
+.n {
+  font-family: Impact, sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  position: absolute;
+  color: #005f73;
+  margin-left: 150px;
+  top: 100px;
+}
+
+.e {
+  font-family: Impact, sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  position: absolute;
+  color: #000;
+  margin-left: 150px;
+  top: 140px;
+}
+
+body {
+  background-color: #e9d8a6;
+  overflow: hidden;
+}
+
+.neutron-one {
+  width: 40px;
+  height: 40px;
+  background-color: #005f73;
+  border-radius: 100%;
+  position: absolute;
+  left: 738px;
+  top: 316px;
+  z-index: -2;
+}
+
+.neutron-two {
+  width: 40px;
+  height: 40px;
+  background-color: #005f73;
+  border-radius: 100%;
+  position: absolute;
+  top: 322px;
+  left: 777px;
+  z-index: -1;
+}
+.neutron-three {
+  width: 40px;
+  height: 40px;
+  background-color: #005f73;
+  border-radius: 100%;
+  position: absolute;
+  top: 316px;
+  left: 756px;
+  z-index: 1;
+}
+
+.proton-one {
+  width: 40px;
+  height: 40px;
+  background-color: #9b2226;
+  border-radius: 100%;
+  position: absolute;
+  top: 299px;
+  left: 770px;
+  z-index: -2;
+}
+.proton-two {
+  width: 40px;
+  height: 40px;
+  background-color: #9b2226;
+  border-radius: 100%;
+  position: absolute;
+  top: 335px;
+  left: 755px;
+  z-index: -1;
+}
+
+.proton-three {
+  width: 40px;
+  height: 40px;
+  background-color: #9b2226;
+  border-radius: 100%;
+  position: absolute;
+  top: 300px;
+  left: 750px;
+  z-index: -2;
+}
+
+.electron-one {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 538.5px;
+  z-index: 1;
+}
+.electron-two {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 1128px;
+  top: 325px;
+  z-index: 1;
+}
+.electron-three {
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 800px;
+  top: 609px;
+  z-index: 1;
+}
+
+.ellipse {
+  width: 670px;
+  height: 200px;
+  border-radius: 80%;
+  background-color: transparent;
+  border: 2.5px solid #001219;
+  position: absolute;
+  top: 240px;
+  left: 432px;
+  z-index: -3;
+  transform: rotate(-45deg);
+}
+
+.ellipse-two {
+  width: 700px;
+  height: 200px;
+  border-radius: 70%;
+  background-color: transparent;
+  border: 2.5px solid #001219;
+  position: absolute;
+  top: 230px;
+  left: 440px;
+  z-index: -2;
+  transform: rotate(0deg);
+}
+
+.ellipse-three {
+  width: 670px;
+  height: 200px;
+  border-radius: 80%;
+  background-color: transparent;
+  border: 2.5px solid #001219;
+  position: absolute;
+  top: 240px;
+  left: 455px;
+  z-index: -3;
+  transform: rotate(45deg);
+}
+
+.ellipse-four {
+  width: 600px;
+  height: 200px;
+  border-radius: 80%;
+  background-color: transparent;
+  border: 2.5px solid #001219;
+  position: absolute;
+  left: 478px;
+  top: 235px;
+  transform: rotate(90deg);
+  z-index: -2;
+}
